@@ -13,10 +13,22 @@ body{
     min-height: 100vh;
 }
 
-/* section{
+section{
+           
+        animation: down-to-up 1.5s linear backwards ;
+        animation-delay: 0.5s;
+    } 
 
-    position: relative;
-} */
+    @keyframes down-to-up{
+        0%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    
+
 
 /*pseudo-element, first child of the element selected*/
 section::before{
@@ -50,7 +62,20 @@ section::after{
     align-items: center;
     flex-wrap: wrap;
     margin: 40px 0;
+    animation: down-to-up 1.5s linear backwards ;
+    animation-delay: 0.5s;
 }
+
+@keyframes down-to-up{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
 
 .container .card{
     position: relative;
