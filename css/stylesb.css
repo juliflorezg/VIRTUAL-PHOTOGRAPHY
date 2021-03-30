@@ -177,3 +177,283 @@ body{
 #radio8:checked ~ .navigation-auto .auto-btn8{
     background-color: #40D3DC;
 }
+
+
+
+
+@media screen and (max-width:1024px){
+
+    .top-card{
+        
+        width: 700px;
+        height: 150px;
+        padding: 15px;
+        margin: 20px;
+        justify-content: center;
+        top: 0;
+    }
+
+    .slider{
+        width: 700px;
+        
+        height: 390px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    
+    .slides{
+        width: 500%;
+        height: 390px;
+        display: flex;
+    }
+
+    .slide img{
+        width: 700px;
+        height: 390px;
+    }
+    
+    /* CSS for manual navigation */
+    
+    .navigation-manual{
+        position: absolute;
+        width: 700px;
+    
+        /* height: 500px; */
+    
+        margin-top: -25px;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 700px;
+        justify-content: center;
+        margin-top: 365px;
+    }
+
+    
+}
+
+@media screen and ( min-width:1025px ) and ( max-width:1440px ){
+
+    .top-card{
+        
+        width: 750px;
+        height: 180px;
+        padding: 20px;
+        margin: 30px;
+        justify-content: center;
+        top: 0;
+    }
+
+    img.responsive {
+       
+        width: 220px;
+    }
+
+    .top-card h1{
+        font-size: 2em;
+        /* font-weight: 900; */
+    }
+
+    .top-card p{
+        font-size: 1.2em;
+    }
+
+    .slider{
+        width: 1000px;
+        
+        height: 560px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    
+    .slides{
+        width: 500%;
+        height: 560px;
+        display: flex;
+    }
+
+    .slide img{
+        width: 1000px;
+        height: 560px;
+    }
+    
+    /* CSS for manual navigation */
+    
+    .navigation-manual{
+        position: absolute;
+        width: 1000px;
+    
+        /* height: 500px; */
+    
+        margin-top: -25px;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 1000px;
+        justify-content: center;
+        margin-top: 535px;
+    }
+
+    
+}
+
+@media screen  and (min-width:1441px ) and (max-width:1740px){
+
+    .top-card{
+        
+        width: 1000px;
+        height: 250px;
+        padding: 20px;
+        margin: 35px;
+        justify-content: center;
+        top: 0;
+        
+    }
+
+    .top-card img{
+       
+        width: 290px;
+    }
+
+    .top-card h1{
+        font-size: 2.5rem;
+        /* font-weight: 900; */
+    }
+
+    .top-card p{
+        font-size: 1.5rem;
+    }
+
+    .slider{
+        width: 1250px;
+        
+        height: 700px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+    
+    .slides{
+        width: 500%;
+        height: 700px;
+        display: flex;
+    }
+
+    .slide img{
+        width: 1250px;
+        height: 700px;
+    }
+    
+    /* CSS for manual navigation */
+    
+    .navigation-manual{
+        position: absolute;
+        width: 1250px;
+    
+        /* height: 500px; */
+    
+        margin-top: -25px;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 1250px;
+        justify-content: center;
+        margin-top: 675px;
+    }
+
+    
+}
+
+@media screen  and (min-width:1741px ) and (max-width:2048px){
+
+    .top-card{
+        
+        width: 1000px;
+        height: 320px;
+        padding: 20px;
+        margin: 35px;
+        justify-content: center;
+        top: 0;
+        
+    }
+
+    .top-card img{
+       
+        width: 320px;
+    }
+
+    .top-card h1{
+        font-size: 3rem;
+        /* font-weight: 900; */
+    }
+
+    .top-card p{
+        font-size: 2rem;
+    }
+
+    .slider{
+        width: 1600px;
+        
+        height: 900px;
+        border-radius: 10px;
+        overflow: hidden;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    
+    .slides{
+        width: 500%;
+        height: 1600px;
+        display: flex;
+    }
+
+    .slide img{
+        width: 1600px;
+        height: 900px;
+    }
+    
+    /* CSS for manual navigation */
+    
+    .navigation-manual{
+        position: absolute;
+        width: 1600px;
+    
+        /* height: 500px; */
+    
+        margin-top: -750px;
+        display: flex;
+        justify-content: center;
+    
+    }
+
+    .navigation-auto{
+        position: absolute;
+        display: flex;
+        width: 1600px;
+        justify-content: center;
+        margin-top: 850px;
+    }
+
+
+
+}
